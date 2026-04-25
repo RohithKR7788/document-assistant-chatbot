@@ -19,7 +19,7 @@ An NLP-based chatbot that generates professional documents such as emails, resum
 
 ## How to Run
 pip install -r requirements.txt  
-python app.py  
+python app_mistral.py  
 
 ## Output
 ![Output1](output1.png)
