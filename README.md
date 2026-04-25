@@ -11,7 +11,16 @@ An NLP-based chatbot that generates professional documents such as emails, resum
 - Python  
 - PyTorch  
 - HuggingFace Transformers  
-- Streamlit  
+- Streamlit
+- 
+##MY CONTRIBUTIONS(Rohith K Raj)
+Implemented LLM-based document generation using Mistral-7B-Instruct (Transformers)
+Designed prompt engineering pipeline for structured document generation
+Integrated 4-bit quantization (BitsAndBytes) for efficient model loading
+Managed GPU memory optimization (CUDA handling, cache clearing)
+Developed core inference logic using HuggingFace Transformers
+Implemented text generation controls (temperature, top-p, max tokens)
+Handled model loading and optimization for low-resource environments
 
 ## Model
 - Mistral-7B-Instruct  
