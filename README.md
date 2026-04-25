@@ -1,20 +1,26 @@
 # Document Assistant Chatbot
 
-An NLP-based chatbot that answers user queries from uploaded documents using transformer models.
+An NLP-based chatbot that generates professional documents such as emails, resumes, and letters using a fine-tuned Large Language Model.
 
 ## Features
-- Document-based question answering
-- Context-aware responses
-- Retrieval-based system
+- Generates structured professional documents  
+- Context-aware responses using LLM  
+- Simple chatbot interface  
 
 ## Tech Stack
-- Python
-- PyTorch
-- HuggingFace Transformers
+- Python  
+- PyTorch  
+- HuggingFace Transformers  
+- Streamlit  
+
+## Model
+- Mistral-7B-Instruct  
+- Fine-tuned using LoRA  
 
 ## How to Run
 pip install -r requirements.txt  
-python app_mistral.py
+python app.py  
 
 ## Output
-See screenshots folder
+![Output1](output1.png)
+![Output2](output2.png)
